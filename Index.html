@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - Sage Lessly Rusagara </title>
+    <style>
+        body {    
+            padding: 0;
+            margin: 0;
+        }  
+
+        header {
+            display: flex;
+            background: #fff;
+            margin: 70px;
+            padding: 30px 0px;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+
+        }
+        nav a {
+            text-decoration: none;
+            color: #000;
+            padding: 0px 0px 40px 150px;
+     
+        }
+
+        .home-container{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            height: 80vh;
+            margin: auto;
+
+        }
+        .home-image{
+            width: 35%;
+        }
+        .home-image img{
+            width: 250px;
+            height:200px;
+            border-radius: 50%;
+            object-fit: cover;
+
+        }
+        .home-descript{
+            width: 50%;
+            
+        }
+        .buttons .btn{
+            padding: 10px 20px;
+            border: none;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn-dark{
+            background-color: black;
+            color: white;
+        }
+        .social-icons img{
+            width: 30px;
+            margin: 10px;
+        }
+
+
+        #about-section{
+            text-align: center;
+            
+        }
+        .about-container{
+            display: flex;
+            justify-content: center;
+            height: 80vh;
+        }
+        .about-image{
+            width: 65%;
+        }
+        .about-image img{
+            width: 200px;
+            
+            border-radius: 50%;
+        }
+        h4{
+            font-size: 12px;
+            font-weight: lighter;
+        }
+        
+        .info{
+            display: flex; 
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+        .card{
+            font-size: 14px;
+            font-weight: lighter;
+            border-radius: 30px;
+            padding: 50px 10px 50px 10px;
+            height: 20%;
+            border: .5px solid gray;
+            width: 40%;
+            margin: 15px;
+
+        }
+        .info-card{
+            text-align: center;
+            
+        }
+        .info-descript p{
+            text-align: justify;
+            font-weight: lighter;
+            font-size: 15px;
+            margin-right: 50px;    
+        }
+        
+        footer {
+            text-align: center;
+        }
+        footer a{
+            font-size: 20px;
+            padding: 20px;
+            
+        }
+        footer p{
+           font-size: 15px;
+           color: gray;
+           padding: 0px 0px 50px 40px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sage Lessly Rusagara</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home-section">
+        <div class="home-container">
+            <div class="home-image">
+                <img src="./Pic.JPG" alt="Profile">
+            </div>
+            <div class="home-descript">
+                <h2>Hello, I'm</h2>
+                <h1>Sage Lessly Rusagara</h1>
+                <h3>FullStack Developer</h3>
+                <div class="buttons">
+                    <button class="btn">Download CV</button>
+                    <button class="btn btn-dark">Contact Info</button>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="./linkedin_logo.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="./github_icon.png" alt="GitHub"></a>
+                </div>   
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="about-section">
+        <h4> Get to know me </h4>
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="./Pic2.jpeg" alt="About image">
+            </div>
+            <div class="info-card">
+                <div class="info">
+                    <div class="card">
+                        <h3>Experience</h3>
+                        <p>1+ years in Full Stack Development</p>
+                    </div>
+                    <div class="card">
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelor's Degree in Software Engineering</p>
+                    </div>
+                </div>
+                <div class="info-descript">
+                    <p>Proficient in frontend technologies. My expertise spans multiple programming languages and frameworks, and I'm always eager to learn and adapt to new technologies.</p>
+                </div> 
+            </div>
+        </div> 
+    </section>
+    
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>Copyright &copy; 2025 Sage Lessly Rusagara. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
